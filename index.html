@@ -1,0 +1,416 @@
+<html lang="en" class="scroll-smooth"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinscale | Pinterest Marketing Agency</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .masonry-grid { column-count: 2; column-gap: 1.5rem; }
+        @media (min-width: 768px) { .masonry-grid { column-count: 3; } }
+        @media (min-width: 1024px) { .masonry-grid { column-count: 4; } }
+        .masonry-item { break-inside: avoid; margin-bottom: 1.5rem; }
+        .glass-panel { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+        .subtle-fade { background: linear-gradient(180deg, rgba(255,255,255,0) 0%, #ffffff 100%); }
+    </style>
+</head>
+<body class="bg-white text-slate-600 antialiased selection:bg-rose-100 selection:text-rose-900">
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass-panel border-b border-slate-100/50 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-2 group">
+                <div class="w-8 h-8 bg-rose-500 rounded-lg flex items-center justify-center text-white rotate-3 group-hover:rotate-6 transition-transform duration-300">
+                    <span class="font-medium text-lg tracking-tighter">P</span>
+                </div>
+                <span class="text-slate-900 font-semibold tracking-tight text-lg">Pinscale</span>
+            </a>
+            
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-500">
+                <a href="#work" class="hover:text-rose-600 transition-colors">Work</a>
+                <a href="#services" class="hover:text-rose-600 transition-colors">Services</a>
+                <a href="#process" class="hover:text-rose-600 transition-colors">Process</a>
+            </div>
+
+            <div class="flex items-center gap-4">
+                <a href="#" class="hidden sm:flex text-sm font-medium text-slate-600 hover:text-rose-600 transition-colors">Log in</a>
+                <a href="#" class="bg-slate-900 text-white text-sm font-medium px-4 py-2 rounded-lg hover:bg-slate-800 transition-colors flex items-center gap-2 group">
+                    Start Scaling
+                    <iconify-icon icon="solar:arrow-right-linear" class="group-hover:translate-x-0.5 transition-transform"></iconify-icon>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 overflow-hidden">
+        <div class="absolute inset-0 -z-10">
+            <div class="absolute top-0 right-0 w-1/3 h-1/3 bg-rose-100/40 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2"></div>
+            <div class="absolute bottom-0 left-0 w-1/4 h-1/4 bg-blue-50/60 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-16 items-center">
+            <div class="max-w-xl">
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-rose-50 text-rose-600 border border-rose-100 text-xs font-medium mb-6">
+                    <span class="w-2 h-2 rounded-full bg-rose-500 animate-pulse"></span>
+                    Accepting new clients for Q4
+                </div>
+                <h1 class="text-5xl lg:text-6xl font-semibold text-slate-900 tracking-tight leading-[1.1] mb-6">
+                    Turn inspiration into <span class="text-transparent bg-clip-text bg-gradient-to-r from-rose-500 to-orange-500">revenue.</span>
+                </h1>
+                <p class="text-lg text-slate-500 leading-relaxed mb-8 max-w-md">
+                    We are the specialized agency for direct-to-consumer brands looking to dominate Pinterest with high-intent creative and data-driven ad strategies.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <button class="bg-rose-500 text-white px-6 py-3.5 rounded-xl font-medium hover:bg-rose-600 transition-all shadow-lg shadow-rose-200 flex items-center justify-center gap-2">
+                        Get a Proposal
+                    </button>
+                    <button class="px-6 py-3.5 rounded-xl font-medium text-slate-600 border border-slate-200 hover:bg-slate-50 transition-colors flex items-center justify-center gap-2">
+                        View Case Studies
+                    </button>
+                </div>
+                
+                <div class="mt-12 flex items-center gap-4 text-sm text-slate-400">
+                    <div class="flex -space-x-2">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=64&amp;h=64" class="w-8 h-8 rounded-full border-2 border-white" alt="Avatar">
+                        <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&amp;fit=crop&amp;w=64&amp;h=64" class="w-8 h-8 rounded-full border-2 border-white" alt="Avatar">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&amp;fit=crop&amp;w=64&amp;h=64" class="w-8 h-8 rounded-full border-2 border-white" alt="Avatar">
+                    </div>
+                    <p>Trusted by 50+ DTC brands</p>
+                </div>
+            </div>
+
+            <!-- Visual Pinterest Grid Mockup -->
+            <div class="relative h-[600px] w-full overflow-hidden mask-gradient">
+                <div class="columns-2 md:columns-3 gap-4 absolute -top-10 w-full opacity-90">
+                    <!-- Column 1 -->
+                    <div class="mb-4">
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=500&amp;q=80" class="rounded-2xl w-full shadow-sm hover:shadow-md transition-shadow" alt="Portrait">
+                    </div>
+                    <div class="mb-4">
+                        <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=500&amp;q=80" class="rounded-2xl w-full shadow-sm hover:shadow-md transition-shadow" alt="Interior">
+                    </div>
+                     <div class="mb-4 bg-slate-900 rounded-2xl p-6 text-white flex flex-col justify-between h-48">
+                         <iconify-icon icon="solar:graph-up-linear" class="text-3xl text-rose-400"></iconify-icon>
+                         <div>
+                             <p class="text-3xl font-semibold tracking-tight">+400%</p>
+                             <p class="text-sm text-slate-400">ROAS Increase</p>
+                         </div>
+                    </div>
+                    
+                    <!-- Column 2 -->
+                    <div class="mb-4 bg-rose-50 rounded-2xl p-6 flex items-center justify-center aspect-square">
+                        <span class="text-rose-900 font-serif italic text-2xl">Aesthetic</span>
+                    </div>
+                    <div class="mb-4">
+                        <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500&amp;q=80" class="rounded-2xl w-full shadow-sm hover:shadow-md transition-shadow" alt="Fashion">
+                    </div>
+                    <div class="mb-4">
+                        <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/917d6f93-fb36-439a-8c48-884b67b35381_1600w.jpg" class="rounded-2xl w-full shadow-sm hover:shadow-md transition-shadow" alt="Product">
+                    </div>
+
+                    <!-- Column 3 -->
+                    <div class="mb-4">
+                        <img src="https://images.unsplash.com/photo-1618220179428-22790b461013?w=500&amp;q=80" class="rounded-2xl w-full shadow-sm hover:shadow-md transition-shadow" alt="Furniture">
+                    </div>
+                    <div class="mb-4 bg-white border border-slate-100 rounded-2xl p-4 shadow-sm">
+                        <div class="flex items-center gap-3 mb-2">
+                             <div class="w-8 h-8 rounded-full bg-slate-100 flex items-center justify-center text-xs">JP</div>
+                             <div class="text-xs font-medium">Saved to <span class="text-rose-500">Wishlist</span></div>
+                        </div>
+                        <div class="h-2 w-full bg-slate-100 rounded-full mb-2"></div>
+                        <div class="h-2 w-2/3 bg-slate-100 rounded-full"></div>
+                    </div>
+                     <div class="mb-4">
+                        <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?w=500&amp;q=80" class="rounded-2xl w-full shadow-sm hover:shadow-md transition-shadow" alt="Furniture">
+                    </div>
+                </div>
+                <!-- Fade overlay at bottom of images -->
+                <div class="absolute bottom-0 left-0 w-full h-32 subtle-fade z-10"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logos -->
+    <section class="py-10 border-y border-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <p class="text-center text-xs font-semibold tracking-wide uppercase text-slate-400 mb-8">Powering growth for modern brands</p>
+            <div class="flex flex-wrap justify-center gap-x-12 gap-y-8 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
+                <!-- Simple Text Logos for Demo -->
+                <span class="text-xl font-bold tracking-tighter">ACME</span>
+                <span class="text-xl font-semibold italic">Lumina</span>
+                <span class="text-xl font-medium tracking-widest">NORDIC</span>
+                <span class="text-xl font-black">VELOCITY</span>
+                <span class="text-xl font-serif">Bloom &amp; Wild</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Prop / Services -->
+    <section id="services" class="py-24 bg-slate-50/50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="mb-16 md:flex justify-between items-end">
+                <div class="max-w-xl">
+                    <h2 class="text-3xl md:text-4xl font-semibold text-slate-900 tracking-tight mb-4">Not just pretty pictures. <br>Performance.</h2>
+                    <p class="text-slate-500 text-lg">Pinterest users spend 2x more than on other platforms. We help you capture that intent with a full-funnel approach.</p>
+                </div>
+                <a href="#" class="hidden md:flex items-center gap-2 text-rose-600 font-medium hover:gap-3 transition-all mt-6 md:mt-0">
+                    Explore Services <iconify-icon icon="solar:arrow-right-linear"></iconify-icon>
+                </a>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg transition-shadow duration-300 group">
+                    <div class="w-12 h-12 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <iconify-icon icon="solar:gallery-linear" class="text-2xl"></iconify-icon>
+                    </div>
+                    <h3 class="text-xl font-semibold text-slate-900 mb-3">Creative Production</h3>
+                    <p class="text-slate-500 leading-relaxed text-sm">
+                        We design scroll-stopping Pins that blend natively with the platform while driving high click-through rates. Static, video, and carousel formats.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg transition-shadow duration-300 group">
+                    <div class="w-12 h-12 bg-rose-50 text-rose-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <iconify-icon icon="solar:tuning-2-linear" class="text-2xl"></iconify-icon>
+                    </div>
+                    <h3 class="text-xl font-semibold text-slate-900 mb-3">Paid Strategy</h3>
+                    <p class="text-slate-500 leading-relaxed text-sm">
+                        Laser-focused targeting using keywords, interests, and act-alike audiences. We manage bids and budgets to maximize your ROAS.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white p-8 rounded-2xl border border-slate-100 shadow-sm hover:shadow-lg transition-shadow duration-300 group">
+                    <div class="w-12 h-12 bg-orange-50 text-orange-600 rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                        <iconify-icon icon="solar:chart-2-linear" class="text-2xl"></iconify-icon>
+                    </div>
+                    <h3 class="text-xl font-semibold text-slate-900 mb-3">Analytics &amp; Conversion</h3>
+                    <p class="text-slate-500 leading-relaxed text-sm">
+                        Pinterest Tag implementation and custom reporting. We track view-through conversions to prove the full value of the channel.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid (Masonry) -->
+    <section id="work" class="py-24">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-rose-500 font-medium text-sm tracking-wider uppercase mb-2 block">Our Work</span>
+                <h2 class="text-3xl md:text-4xl font-semibold text-slate-900 tracking-tight">Curated specifically for success</h2>
+            </div>
+
+            <div class="masonry-grid">
+                <!-- Item 1 -->
+                <div class="masonry-item group relative rounded-2xl overflow-hidden cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=600&amp;q=80" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500" alt="Sneakers">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <p class="text-white font-medium">Urban Footwear</p>
+                        <p class="text-white/80 text-xs">Retargeting Campaign</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="masonry-item group relative rounded-2xl overflow-hidden cursor-pointer">
+                    <div class="bg-slate-100 aspect-[3/4] p-8 flex flex-col justify-center items-center text-center">
+                        <h3 class="text-2xl font-serif text-slate-900 italic mb-2">"Pinscale unlocked a new audience for us."</h3>
+                        <p class="text-xs text-slate-500 uppercase tracking-widest mt-4">CEO, GlowBeauty</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="masonry-item group relative rounded-2xl overflow-hidden cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&amp;q=80" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500" alt="Home Decor">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <p class="text-white font-medium">Nordic Home</p>
+                        <p class="text-white/80 text-xs">Brand Awareness</p>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="masonry-item group relative rounded-2xl overflow-hidden cursor-pointer">
+                    <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?w=600&amp;q=80" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500" alt="Cosmetics">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <p class="text-white font-medium">Pure Skin</p>
+                        <p class="text-white/80 text-xs">Product Launch</p>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="masonry-item bg-slate-900 rounded-2xl p-8 text-white flex flex-col items-start justify-between min-h-[300px]">
+                    <iconify-icon icon="solar:graph-new-up-linear" class="text-4xl text-rose-400"></iconify-icon>
+                    <div>
+                        <div class="text-5xl font-semibold tracking-tighter mb-2">3.8x</div>
+                        <p class="text-slate-400">Average ROAS across all clients in 2023.</p>
+                    </div>
+                </div>
+
+                 <!-- Item 6 -->
+                 <div class="masonry-item group relative rounded-2xl overflow-hidden cursor-pointer">
+                    <img src="https://hoirqrkdgbmvpwutwuwj.supabase.co/storage/v1/object/public/assets/assets/4734259a-bad7-422f-981e-ce01e79184f2_1600w.jpg" class="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500" alt="Travel">
+                    <div class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+                        <p class="text-white font-medium">Wanderlust Bags</p>
+                        <p class="text-white/80 text-xs">Keyword Dominance</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <button class="text-sm font-semibold text-slate-900 border-b border-slate-900 pb-0.5 hover:text-rose-600 hover:border-rose-600 transition-all">
+                    View Full Portfolio
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Metrics Section -->
+    <section class="py-24 bg-slate-900 text-white relative overflow-hidden">
+        <!-- Decoration -->
+        <div class="absolute top-0 left-0 w-64 h-64 bg-rose-500/20 rounded-full blur-[80px]"></div>
+        <div class="absolute bottom-0 right-0 w-64 h-64 bg-blue-500/20 rounded-full blur-[80px]"></div>
+
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-3xl md:text-4xl font-semibold tracking-tight mb-6">Results that scale <br>with your ambition.</h2>
+                    <p class="text-slate-400 text-lg mb-8 leading-relaxed">
+                        We don't just pin images; we engineer growth engines. Our proprietary framework ensures your ads reach users when they are most likely to purchase.
+                    </p>
+                    
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3">
+                            <div class="mt-1 w-5 h-5 rounded-full bg-rose-500/20 flex items-center justify-center text-rose-400">
+                                <iconify-icon icon="solar:check-read-linear" class="text-xs"></iconify-icon>
+                            </div>
+                            <span class="text-slate-300">Detailed keyword architecture</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="mt-1 w-5 h-5 rounded-full bg-rose-500/20 flex items-center justify-center text-rose-400">
+                                <iconify-icon icon="solar:check-read-linear" class="text-xs"></iconify-icon>
+                            </div>
+                            <span class="text-slate-300">Trend-based creative iteration</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <div class="mt-1 w-5 h-5 rounded-full bg-rose-500/20 flex items-center justify-center text-rose-400">
+                                <iconify-icon icon="solar:check-read-linear" class="text-xs"></iconify-icon>
+                            </div>
+                            <span class="text-slate-300">Monthly CRO audits for landing pages</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-white/5 border border-white/10 p-6 rounded-2xl backdrop-blur-sm">
+                        <div class="text-4xl font-semibold text-rose-400 tracking-tight mb-1">$12M+</div>
+                        <div class="text-sm text-slate-400">Ad Spend Managed</div>
+                    </div>
+                    <div class="bg-white/5 border border-white/10 p-6 rounded-2xl backdrop-blur-sm">
+                        <div class="text-4xl font-semibold text-rose-400 tracking-tight mb-1">45%</div>
+                        <div class="text-sm text-slate-400">Avg. Lower CPA</div>
+                    </div>
+                    <div class="bg-white/5 border border-white/10 p-6 rounded-2xl backdrop-blur-sm col-span-2">
+                        <div class="flex items-center justify-between mb-4">
+                             <div class="text-sm text-slate-400">Revenue Growth</div>
+                             <iconify-icon icon="solar:chart-square-linear" class="text-slate-500"></iconify-icon>
+                        </div>
+                        <div class="h-16 flex items-end gap-1">
+                            <div class="w-1/6 bg-rose-900/50 h-[30%] rounded-t-sm"></div>
+                            <div class="w-1/6 bg-rose-800/50 h-[45%] rounded-t-sm"></div>
+                            <div class="w-1/6 bg-rose-700/50 h-[40%] rounded-t-sm"></div>
+                            <div class="w-1/6 bg-rose-600/50 h-[60%] rounded-t-sm"></div>
+                            <div class="w-1/6 bg-rose-500/50 h-[75%] rounded-t-sm"></div>
+                            <div class="w-1/6 bg-rose-400 h-[90%] rounded-t-sm shadow-[0_0_15px_rgba(251,113,133,0.5)]"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing/CTA Block -->
+    <section class="py-24">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="bg-gradient-to-br from-slate-50 to-rose-50/50 border border-slate-100 rounded-[2rem] p-12 text-center shadow-sm">
+                <h2 class="text-3xl md:text-4xl font-semibold text-slate-900 tracking-tight mb-6">Ready to dominate the visual search engine?</h2>
+                <p class="text-slate-500 text-lg mb-8 max-w-xl mx-auto">
+                    We offer a free audit for brands spending over $5k/mo on paid social. Let's see if Pinterest is your next growth channel.
+                </p>
+                <form class="max-w-md mx-auto flex flex-col gap-4">
+                    <input type="email" placeholder="Enter your work email" class="w-full px-5 py-4 rounded-xl bg-white border border-slate-200 focus:outline-none focus:ring-2 focus:ring-rose-500/20 focus:border-rose-500 transition-all text-sm">
+                    <button type="submit" class="w-full bg-slate-900 text-white font-medium py-4 rounded-xl hover:bg-slate-800 transition-all shadow-lg flex items-center justify-center gap-2 group">
+                        Book Free Audit
+                        <iconify-icon icon="solar:calendar-linear" class="text-lg group-hover:-translate-y-0.5 transition-transform"></iconify-icon>
+                    </button>
+                </form>
+                <p class="mt-6 text-xs text-slate-400">No commitment required. 14-day turnaround.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-slate-100 pt-16 pb-8">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-4 gap-12 mb-16">
+                <div class="col-span-1 md:col-span-1">
+                    <a href="#" class="flex items-center gap-2 mb-4">
+                         <div class="w-6 h-6 bg-rose-500 rounded flex items-center justify-center text-white text-xs">
+                            <span class="font-medium tracking-tighter">P</span>
+                        </div>
+                        <span class="text-slate-900 font-semibold tracking-tight">Pinscale</span>
+                    </a>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        Helping modern brands scale through visual discovery and high-intent advertising.
+                    </p>
+                </div>
+                
+                <div>
+                    <h4 class="font-medium text-slate-900 mb-4">Services</h4>
+                    <ul class="space-y-3 text-sm text-slate-500">
+                        <li><a href="#" class="hover:text-rose-600 transition-colors">Paid Ads Management</a></li>
+                        <li><a href="#" class="hover:text-rose-600 transition-colors">Creative Studio</a></li>
+                        <li><a href="#" class="hover:text-rose-600 transition-colors">Pinterest SEO</a></li>
+                        <li><a href="#" class="hover:text-rose-600 transition-colors">Conversion Audits</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-medium text-slate-900 mb-4">Company</h4>
+                    <ul class="space-y-3 text-sm text-slate-500">
+                        <li><a href="#" class="hover:text-rose-600 transition-colors">About Us</a></li>
+                        <li><a href="#" class="hover:text-rose-600 transition-colors">Case Studies</a></li>
+                        <li><a href="#" class="hover:text-rose-600 transition-colors">Blog</a></li>
+                        <li><a href="#" class="hover:text-rose-600 transition-colors">Careers</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-medium text-slate-900 mb-4">Social</h4>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 hover:bg-rose-50 hover:text-rose-600 transition-all">
+                            <iconify-icon icon="solar:camera-linear" class="text-lg"></iconify-icon>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-slate-400 hover:bg-blue-50 hover:text-blue-600 transition-all">
+                            <iconify-icon icon="solar:plain-linear" class="text-lg"></iconify-icon>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-xs text-slate-400">© 2024 Pinscale Agency. All rights reserved.</p>
+                <div class="flex gap-6 text-xs text-slate-400">
+                    <a href="#" class="hover:text-slate-600">Privacy Policy</a>
+                    <a href="#" class="hover:text-slate-600">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body></html>
